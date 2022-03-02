@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(246, 246, 248);
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        div > p {
+            display:none;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+
+        div:hover > p {
+            display: block;
+            color: blue;
+            background-color: chocolate;
+            width: 200px;
+           text-align: center;
+        }
+        li{
+            text-align: center;
+        }
+
+        #confi {
+            background-color: maroon;
+            text-align: center;
+        }
+
+        #film {
+            background-color: maroon;
+            text-align: center;
+        }
+
+        #serie {
+            background-color: maroon;
+            text-align: center;
+        }
+
+        a{
+            color: gold;
+        }
+      
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<p>passe o mouse aqui em baixo</p>
+<div>
+   <li>Menu</li> 
+   <p  id="confi"> <a href="confi.html">configuraçoes</a></p>
+   <p id="film"> <a href="film.html">filmes</a></p>
+   <p id="serie"> <a href="seri.html">series</a></p>
+</div>
+</body> 
+</html>

@@ -1,0 +1,30 @@
+@charset "UTF-8"
+
+body{
+    background-color: honeydew;
+    
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+h2{
+    font-family: cursive;
+    text-align: center;
+}
+
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: blueviolet;
+}
+#conteudo {
+    background-color: sandybrown;
+    color: snow;
+}
