@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin: 15px;
+    background-color: blue;
+}
+p{
+    margin: 15px;
+}
+header{
+    background-color: black;
+    height: 200px;
+    padding: 10px;
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-top: -40px;
+}
+header> h1{
+    padding: 5%;
+    color: white;
+    text-align: center;
+    height: 22px;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+header> p{
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    height: 22px;
+    font-family:'Courier New', Courier, monospace ;
+    
+}p> a{
+    text-decoration: none;
+    color: white;
+    height: 15px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+main{
+    padding: 10px;
+    background-color: white;
+   max-width: 800px;
+    margin: auto;
+}
+
+main>p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box{
+    border-radius: 10px;
+    position: relative;
+
+    background-image: url(imagens/flor-e-livro-37439725.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    height: 450px;
+    margin: auto;
+}
+ #box2{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+
+
+    background-color: rgba(15, 1, 1, 0.445);
+    background-position: center center;
+
+
+    
+    left: 10px;
+    top: 20px;
+
+    transform: translate(50%, 30%);
+
+}
+#box2>p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#box3{
+    border-radius: 10px;
+    position: relative;
+
+    background-image: url(imagens/flor.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    height: 450px;
+    margin: auto;
+}
+ #box4{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+
+    background-color:  rgba(15, 1, 1, 0.445);;
+    background-position: center center;
+
+
+    
+    left: 10px;
+    top: 20px;
+
+    transform: translate(50%, 30%);
+
+}
+#box4>p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
