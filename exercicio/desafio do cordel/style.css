@@ -6,16 +6,17 @@
 }
 
 body{
-    
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+
 }
+
+
 p{
     margin: 15px;
 }
 header{
     background-color: black;
-    height: 200px;
-    padding: 10px;
+    padding-bottom: 0,2vh;
     margin: auto;
 }
 header> h1{
@@ -38,7 +39,7 @@ header> p{
 }
    
     
-    
+
 p> a{
     text-decoration: none;
     color: white;
@@ -51,6 +52,10 @@ main{
     padding: 10px;
     background-color: white;
     max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    
     
 }
 
@@ -59,21 +64,22 @@ main>p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: auto;
+    padding: 20px 35px;
     
 }
 #box{
     border-radius: 10px;
-    width: 660px;
     position: relative;
 
     background-image: url(imagens/flor-e-livro-37439725.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
 
 
-    height: 350px;
+    height: 500px;
+    width: 600px;
     margin: left;
 }
  #box2{
@@ -82,6 +88,7 @@ main>p{
     width: 250px;
     border-radius: 10px;
     color: white;
+    margin: auto;
 
 
     background-color: rgba(15, 1, 1, 0.445);
@@ -92,7 +99,7 @@ main>p{
     left: 10px;
     top: 20px;
 
-    transform: translate(50%, 30%);
+    transform: translate(30%, 10%);
     
 
 }
@@ -103,23 +110,24 @@ main>p{
 }
 #box3{
     border-radius: 10px;
-    width: 660px;
     position: relative;
 
     background-image: url(imagens/flor.webp);
     background-repeat: no-repeat;
-    background-position:  right center;
+    background-position:  center center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
 
 
-    height: 450px;
+    height: 500px;
+    max-width: 600px;
     margin: left;
 }
  #box4{
     position: absolute;
     height: 250px;
     width: 250px;
+    margin: auto;
     border-radius: 10px;
     color: white;
 
