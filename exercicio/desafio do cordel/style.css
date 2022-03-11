@@ -6,8 +6,8 @@
 }
 
 body{
-    margin: 15px;
-    background-color: blue;
+    
+    background-color: white;
 }
 p{
     margin: 15px;
@@ -16,26 +16,30 @@ header{
     background-color: black;
     height: 200px;
     padding: 10px;
-    margin-left: -40px;
-    margin-right: -40px;
-    margin-top: -40px;
+    margin: auto;
 }
 header> h1{
+
     padding: 5%;
     color: white;
+    font-weight: bolder;
     text-align: center;
-    height: 22px;
+    min-height: 22px;
     font-family:'Courier New', Courier, monospace ;
 }
 
 header> p{
     padding-bottom: 20px;
-    color: white;
+    color: rgb(150, 131, 131);
     text-align: center;
-    height: 22px;
+    height:  22px;
     font-family:'Courier New', Courier, monospace ;
+
+}
+   
     
-}p> a{
+    
+p> a{
     text-decoration: none;
     color: white;
     height: 15px;
@@ -46,16 +50,20 @@ header> p{
 main{
     padding: 10px;
     background-color: white;
-   max-width: 800px;
-    margin: auto;
+    max-width: 800px;
+    
 }
 
 main>p{
-    text-align: center;
+    text-align: left, justify;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: auto;
+    
 }
 #box{
     border-radius: 10px;
+    width: 660px;
     position: relative;
 
     background-image: url(imagens/flor-e-livro-37439725.jpg);
@@ -65,8 +73,8 @@ main>p{
     background-attachment: fixed;
 
 
-    height: 450px;
-    margin: auto;
+    height: 350px;
+    margin: left;
 }
  #box2{
     position: absolute;
@@ -85,6 +93,7 @@ main>p{
     top: 20px;
 
     transform: translate(50%, 30%);
+    
 
 }
 #box2>p{
@@ -94,17 +103,18 @@ main>p{
 }
 #box3{
     border-radius: 10px;
+    width: 660px;
     position: relative;
 
     background-image: url(imagens/flor.webp);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position:  right center;
     background-size: cover;
     background-attachment: fixed;
 
 
     height: 450px;
-    margin: auto;
+    margin: left;
 }
  #box4{
     position: absolute;
@@ -118,10 +128,10 @@ main>p{
 
 
     
-    left: 10px;
-    top: 20px;
+    left: 0px;
+    top: 10px;
 
-    transform: translate(50%, 30%);
+    transform: translate(30%, 10%);
 
 }
 #box4>p{
