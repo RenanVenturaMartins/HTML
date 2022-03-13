@@ -1,84 +1,149 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
-
-@import url('https://fonts.googleapis.com/css2? family= Fredoka:wght@300 & family= Passion+One & display=swap');
-:root{
-
-    --font-normal: arial,verdana, sans-serif;
-    --font-titulos:'Fredoka', sem serifa;
-    --font-conteudo:'Passion One', cursiva;
-}
-
 *{
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
 }
 
-html, body{
-    min-height: 100%;
-    background-color: rgb(91, 56, 124);
-    font-family: var(--font-normal);
+body{
+    background-color: rgb(255, 255, 255);
+
 }
 
+
+p{
+    margin: 15px;
+}
 header{
     background-color: black;
+    padding-bottom: 0,2vh;
+    margin: auto;
+}
+header> h1{
+
+    padding: 5%;
     color: white;
-    text-align: center;
-}
-
-header > h1{
-    padding-top: 50px;
-    font-variant: small-caps;
-    font-family: var(--font-titulos);
-    font-size: 4vw;
-}
-
-header > p{
-    padding-bottom: 50px;
-
-}
-
-a{
-    color: white;
-    text-decoration: none;
     font-weight: bolder;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 30px;
-    line-height: 2em;
-    font-family: var(--font-conteudo);
-    font-size: 3vw;
-
-}
-
-section.normal{
-    background-color: white;
-    color: black;
-}
-
-section.imagem{
-    background-color: rgba(218, 38, 38, 0.733);
-    color: white;
-}
-section.imagem >p{
-    background-color: rgba(0, 0, 0, 0.473);
-    display: inline-block;
-    border-radius: 10px;
-    padding: 5px;
-}
-
-footer{
-    background-color: black;
-    color: white;
     text-align: center;
+    min-height: 22px;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+header> p{
+    padding-bottom: 20px;
+    color: rgb(150, 131, 131);
+    text-align: center;
+    height:  22px;
+    font-family:'Courier New', Courier, monospace ;
+
+}
+   
+    
+
+p> a{
+    text-decoration: none;
+    color: white;
+    height: 15px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+main{
     padding: 10px;
+    background-color: white;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    
+    
+}
+
+main>p{
+    text-align: left, justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: auto;
+    padding: 20px 35px;
+    
+}
+#box{
+    border-radius: 10px;
+    position: relative;
+
+    background-image: url(imagens/flor-e-livro-37439725.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    height: 500px;
+    width: 600px;
+    margin: left;
+}
+ #box2{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+
+
+    background-color: rgba(15, 1, 1, 0.445);
+    background-position: center;
+
+
+    
+    left: 10px;
+    top: 20px;
+
+    transform: translate(30%, 10%);
+    
+
+}
+#box2>p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#box3{
+    border-radius: 10px;
+    position: relative;
+
+    background-image: url(imagens/flor.webp);
+    background-repeat: no-repeat;
+    background-position:  center center;
+    background-size: cover;
+    background-attachment: scroll;
+
+
+    height: 500px;
+    max-width: 600px;
+    margin: left;
+}
+ #box4{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+
+    background-color:  rgba(15, 1, 1, 0.445);;
+    background-position: center center;
+
+
+    
+    left: 0px;
+    top: 10px;
+
+    transform: translate(30%, 10%);
+
+}
+#box4>p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
