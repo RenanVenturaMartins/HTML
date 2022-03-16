@@ -10,11 +10,30 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
-            width: 300px;
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
         }
         th, td{
             border: 1px solid black;
-            width: 300px;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: darksalmon;
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: darksalmon;
+        }
+
+        .numero{
+            text-align: right;
+        }
+        tbody > tr:nth-child(2n){
+            background-color:coral;
+            color:;
         }
     </style>
 </head>
@@ -30,15 +49,60 @@
         </thead>
         <tbody>
             <tr>
-                <th>São Paulo</th>
-                <th>12,33 milhões</th>
+                <td>São Paulo</td>
+                <td class="numero">12,33 milhões</td>
             </tr>
-
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">17,25 milhões</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">10,44 milhões</td>
+            </tr>
+            <tr>
+               <td>China </td> 
+                <td class="numero"> 1.439.324.000.</td>
+            </tr>
+            <tr>
+                <td>Índia</td>
+                <td class="numero"> 1.380.004.000.</td>
+            </tr>
+              <tr>
+                <td>Estados Unidos</td>
+                <td class="numero">331.003.000.</td>
+            </tr>
+            <tr>
+                <td>Indonésia</td>
+                <td class="numero">273.524.000.</td>
+            </tr>
+            <tr>
+                <td>Paquistão </td>
+                <td class="numero">220.892.000.</td>
+            </tr>
+            <tr>
+                <td>Nigéria </td>
+                <td class="numero">206.140.000.</td>
+            </tr>
+            <tr>
+                <td>Bangladesh</td>
+                <td class="numero"> 164.689.000.</td>
+            </tr>
         </tbody>
         <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td> classnumero <strong>2.268.359.423.000</strong> </td>
+            </tr>
 
         </tfoot>
     </table>
+    <h1>conteudo bla bla bla </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reiciendis ea natus numquam in sed reprehenderit accusantium quod sunt, perspiciatis minima ipsam veniam tempora id, nihil eius quo, accusamus totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda unde accusamus totam animi illo nulla eligendi harum molestias officia illum, officiis a possimus atque dignissimos, culpa suscipit blanditiis. Recusandae, quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quasi, cum similique numquam officiis fugit eum doloremque ad voluptatum obcaecati nihil asperiores ullam dolorum iure magnam, totam ab? Adipisci, a.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reiciendis ea natus numquam in sed reprehenderit accusantium quod sunt, perspiciatis minima ipsam veniam tempora id, nihil eius quo, accusamus totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda unde accusamus totam animi illo nulla eligendi harum molestias officia illum, officiis a possimus atque dignissimos, culpa suscipit blanditiis. Recusandae, quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quasi, cum similique numquam officiis fugit eum doloremque ad voluptatum obcaecati nihil asperiores ullam dolorum iure magnam, totam ab? Adipisci, a.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reiciendis ea natus numquam in sed reprehenderit accusantium quod sunt, perspiciatis minima ipsam veniam tempora id, nihil eius quo, accusamus totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda unde accusamus totam animi illo nulla eligendi harum molestias officia illum, officiis a possimus atque dignissimos, culpa suscipit blanditiis. Recusandae, quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quasi, cum similique numquam officiis fugit eum doloremque ad voluptatum obcaecati nihil asperiores ullam dolorum iure magnam, totam ab? Adipisci, a.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reiciendis ea natus numquam in sed reprehenderit accusantium quod sunt, perspiciatis minima ipsam veniam tempora id, nihil eius quo, accusamus totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda unde accusamus totam animi illo nulla eligendi harum molestias officia illum, officiis a possimus atque dignissimos, culpa suscipit blanditiis. Recusandae, quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quasi, cum similique numquam officiis fugit eum doloremque ad voluptatum obcaecati nihil asperiores ullam dolorum iure magnam, totam ab? Adipisci, a.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos reiciendis ea natus numquam in sed reprehenderit accusantium quod sunt, perspiciatis minima ipsam veniam tempora id, nihil eius quo, accusamus totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda unde accusamus totam animi illo nulla eligendi harum molestias officia illum, officiis a possimus atque dignissimos, culpa suscipit blanditiis. Recusandae, quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quasi, cum similique numquam officiis fugit eum doloremque ad voluptatum obcaecati nihil asperiores ullam dolorum iure magnam, totam ab? Adipisci, a.</p>
     
 </body>
 </html>
